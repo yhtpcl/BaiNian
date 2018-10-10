@@ -1,0 +1,32 @@
+BaiNianAL_001:
+  username: "17601621127"
+  password: "123456"
+  expect: "yhtyht"
+BaiNianAL_002:
+  username: "yhtyht"
+  password: "123456"
+  expect: "yhtyht"
+BaiNianAL_003:
+  username: " 17601621127 "
+  password: "123456"
+  expect: "yhtyht"
+BaiNianAL_004:
+  username: " yhtyht "
+  password: "123456"
+  expect: "yhtyht"
+BaiNianAL_005:
+  username: "17601621127777"
+  password: "123456"
+  toast_expect: "此用户不存在"
+BaiNianAL_006:
+  username: "yhtyhtt"
+  password: "123456"
+  toast_expect: "此用户不存在"
+BaiNianAL_007:
+  username: "17601621127"
+  password: "123456yy"
+  toast_expect: "登录密码错误"
+BaiNianAL_008:
+  username: "yhtyht"
+  password: "123456ss"
+  toast_expect: "登录密码错误"
